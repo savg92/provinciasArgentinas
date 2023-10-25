@@ -14,11 +14,13 @@ import Population from './components/Population';
 import Poverty from './components/Poverty';
 import School_dropout from './components/School_dropout';
 import { data, Data } from './data/data';
+import ErrorPage from './components/ErrorPage.tsx';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/birth_mortal',
