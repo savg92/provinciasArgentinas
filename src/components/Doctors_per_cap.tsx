@@ -6,7 +6,7 @@ const Doctors_per_cap = ({ data }: { data: Data[] }) => {
     <>
         <h1 className='font-bold'>Doctores por capital</h1>
         <LineChart
-            width={1200}
+            width={1100}
             height={500}
             data={data}
             margin={{

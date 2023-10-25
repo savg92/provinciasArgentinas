@@ -40,7 +40,7 @@ const Deficient_infra = ({ data }: { data: Data[] }) => {
 				<Scatter
 					type='monotone'
 					dataKey='deficient_infra'
-					stroke='#3f3f3f'
+					stroke='#FFD700'
 				/>
 			</ScatterChart>
 		</>

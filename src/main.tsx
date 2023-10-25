@@ -15,6 +15,7 @@ import Poverty from './components/Poverty';
 import School_dropout from './components/School_dropout';
 import { data, Data } from './data/data';
 import ErrorPage from './components/ErrorPage.tsx';
+import Conclutions from './components/Conclutions.tsx';
 
 const router = createBrowserRouter([
 	{
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
         path: '/school_dropout',
         element: <School_dropout data={data as Data[]} />,
       },
+      {
+        path: '/Conclutions',
+        element: <Conclutions />,
+      }
     ]
 	},
 ]);
