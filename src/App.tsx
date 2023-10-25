@@ -1,14 +1,18 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import Illiteracy from './components/Illiteracy';
-import { data, Data } from './data/data'
+import Header from './components/Header';
 
-function App() {
+const App = () => {
 	return (
 		<>
-			<div className=' underline dark:text-yellow-400'>hello world!</div>
-			<Illiteracy data={data as Data[]} />
+			<div className='flex'>
+				<Header />
+				<main className='flex flex-col justify-center items-center mt-6'>
+					<Outlet />
+				</main>
+			</div>
 		</>
 	);
-}
+};
 
 export default App;

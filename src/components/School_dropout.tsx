@@ -1,4 +1,3 @@
-import { Data } from '../data/data';
 import {
 	LineChart,
 	Line,
@@ -8,11 +7,12 @@ import {
 	Tooltip,
 	Legend,
 } from 'recharts';
+import { Data } from '../data/data';
 
-const Illiteracy = ({ data }: { data: Data[] }) => {
+const School_dropout = ({ data }: { data: Data[] }) => {
 	return (
 		<>
-			<h1 className='font-bold'>Analfabetismo</h1>
+			<h1 className='font-bold'>Abandono escolar</h1>
 			<LineChart
 				width={1200}
 				height={500}
@@ -39,7 +39,7 @@ const Illiteracy = ({ data }: { data: Data[] }) => {
 				<Legend />
 				<Line
 					type='monotone'
-					dataKey='illiteracy'
+					dataKey='school_dropout'
 					stroke='#82ca9d'
 				/>
 			</LineChart>
@@ -47,4 +47,4 @@ const Illiteracy = ({ data }: { data: Data[] }) => {
 	);
 };
 
-export default Illiteracy;
+export default School_dropout;

@@ -1,19 +1,19 @@
-import { Data } from '../data/data';
 import {
-	LineChart,
-	Line,
+	ScatterChart,
+	Scatter,
 	XAxis,
 	YAxis,
 	CartesianGrid,
 	Tooltip,
 	Legend,
 } from 'recharts';
+import { Data } from '../data/data';
 
-const Illiteracy = ({ data }: { data: Data[] }) => {
+const Deficient_infra = ({ data }: { data: Data[] }) => {
 	return (
 		<>
-			<h1 className='font-bold'>Analfabetismo</h1>
-			<LineChart
+			<h1 className='font-bold'>Deficit de infraestructura</h1>
+			<ScatterChart
 				width={1200}
 				height={500}
 				data={data}
@@ -37,14 +37,14 @@ const Illiteracy = ({ data }: { data: Data[] }) => {
 				<YAxis />
 				<Tooltip />
 				<Legend />
-				<Line
+				<Scatter
 					type='monotone'
-					dataKey='illiteracy'
-					stroke='#82ca9d'
+					dataKey='deficient_infra'
+					stroke='#3f3f3f'
 				/>
-			</LineChart>
+			</ScatterChart>
 		</>
 	);
 };
 
-export default Illiteracy;
+export default Deficient_infra;

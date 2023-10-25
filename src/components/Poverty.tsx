@@ -1,19 +1,19 @@
-import { Data } from '../data/data';
 import {
-	LineChart,
-	Line,
+	AreaChart,
+	Area,
 	XAxis,
 	YAxis,
 	CartesianGrid,
 	Tooltip,
 	Legend,
 } from 'recharts';
+import { Data } from '../data/data';
 
-const Illiteracy = ({ data }: { data: Data[] }) => {
+const Poverty = ({ data }: { data: Data[] }) => {
 	return (
 		<>
-			<h1 className='font-bold'>Analfabetismo</h1>
-			<LineChart
+			<h1 className='font-bold'>Pobresa</h1>
+			<AreaChart
 				width={1200}
 				height={500}
 				data={data}
@@ -37,14 +37,15 @@ const Illiteracy = ({ data }: { data: Data[] }) => {
 				<YAxis />
 				<Tooltip />
 				<Legend />
-				<Line
+				<Area
 					type='monotone'
-					dataKey='illiteracy'
+					dataKey='poverty'
 					stroke='#82ca9d'
+					fill='#82ca9d'
 				/>
-			</LineChart>
+			</AreaChart>
 		</>
 	);
 };
 
-export default Illiteracy;
+export default Poverty;
