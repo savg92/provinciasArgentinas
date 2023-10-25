@@ -6,13 +6,13 @@ const Header = () => {
 		<>
 			<header className='header mt-6'>
 				<div className='flex flex-col justify-between items-center'>
-					<div className='flex gap-2'>
-                        <img
-                            src={Argentina_Blank_Map}
-                            alt='Argentina Blank Map'
-                            className='w-6'
-                        />
-						<span className='font-bold'>Provincias Argentinas</span>
+					<div className='flex gap-2 items-center justify-center ml-2'>
+						<img
+							src={Argentina_Blank_Map}
+							alt='Argentina Blank Map'
+							className='w-6'
+						/>
+						<p className='font-bold w-fit'>Provincias Argentinas</p>
 					</div>
 
 					<nav className='flex flex-col gap-4 align-center mt-10 max-w-max'>
