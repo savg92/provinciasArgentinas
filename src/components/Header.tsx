@@ -13,7 +13,7 @@ const Header = () => {
 						<img
 							src={Argentina_Blank_Map}
 							alt='Argentina Blank Map'
-							className='w-6'
+							className='w-8'
 						/>
 						<p className='font-bold w-fit'>Provincias Argentinas</p>
 					</Link>
