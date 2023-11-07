@@ -6,6 +6,19 @@ const Population = ({ data }: { data: Data[] }) => {
   return (
 		<>
 			<h1 className='font-bold'>Población</h1>
+			<p className='m-6'>
+				La población de Argentina se encuentra mayormente concentrada en la
+				provincia de Buenos Aires, la cual alberga a una gran proporción de la
+				población total del país. Esta concentración poblacional tiene un
+				impacto significativo en Argentina, ya que la provincia de Buenos Aires
+				es un centro económico y político clave. Esta concentración puede
+				generar desafíos en términos de infraestructura, servicios públicos y
+				desarrollo regional, ya que otras provincias pueden enfrentar
+				dificultades para competir en términos de recursos y atención
+				gubernamental. Además, la distribución desigual de la población puede
+				influir en las decisiones políticas y la representación en el gobierno
+				nacional.
+			</p>
 			<ScatterChart
 				width={1200}
 				height={500}

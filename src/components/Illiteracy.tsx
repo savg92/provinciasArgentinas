@@ -13,6 +13,14 @@ const Illiteracy = ({ data }: { data: Data[] }) => {
 	return (
 		<>
 			<h1 className='font-bold'>Analfabetismo</h1>
+			<p className='m-6'>
+				Cuando un número significativo de estudiantes opta por abandonar
+				prematuramente la escuela, esto contribuye directamente al aumento de la
+				población que no ha recibido una educación completa. Esta situación
+				conlleva consecuencias perjudiciales, ya que puede mermar la capacidad
+				de las personas para acceder a empleos de calidad, mejorar su calidad de
+				vida y contribuir al desarrollo integral de la sociedad.
+			</p>
 			<LineChart
 				width={1200}
 				height={500}

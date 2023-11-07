@@ -16,6 +16,7 @@ import School_dropout from './components/School_dropout';
 import { data, Data } from './data/data';
 import ErrorPage from './components/ErrorPage.tsx';
 import Conclutions from './components/Conclutions.tsx';
+import Home from './components/Home.tsx';
 
 const router = createBrowserRouter([
 	{
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
 		element: <App />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: '/',
+        element: <Home />,
+        
+      },
       {
         path: '/birth_mortal',
         element: <Birth_mortal data={data as Data[]} />,

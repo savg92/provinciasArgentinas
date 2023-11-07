@@ -19,8 +19,8 @@ const Conclutions = () => {
 				tiempo que fomentará un desarrollo más equitativo en todo el país.
 			</p>
 
-			<table className="mt-12">
-				<thead className="font-bold">
+			<table className='mt-12'>
+				<thead className='font-bold text-yellow-500'>
 					<td>
 						Generar una mayor actividad económica en aquellas provincias donde
 						el PBI es notablemente bajo.

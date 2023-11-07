@@ -13,6 +13,15 @@ const Birth_mortal = ({ data }: { data: Data[] }) => {
 	return (
 		<>
 			<h1 className='font-bold'>Mortalidad por nacimiento</h1>
+			<p className='m-6'>
+				Uno de los efectos más preocupantes de esta falta de acceso a la
+				atención médica es su impacto en las tasas de mortalidad al nacer Las
+				mujeres embarazadas y sus bebés son particularmente vulnerables cuando
+				no reciben atención médica adecuada durante el embarazo, el parto y el
+				período postparto. La falta de atención prenatal puede aumentar el
+				riesgo de complicaciones en el parto, lo que a su vez puede resultar en
+				un aumento de la mortalidad neonatal y materna.
+			</p>
 			<AreaChart
 				width={1200}
 				height={500}

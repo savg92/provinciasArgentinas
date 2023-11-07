@@ -13,6 +13,17 @@ const Deficient_infra = ({ data }: { data: Data[] }) => {
 	return (
 		<>
 			<h1 className='font-bold'>Deficit de infraestructura</h1>
+			<p className='m-6'>
+				La carencia de infraestructura en una provincia puede desempeñar un
+				papel crucial en la relación entre un menor Producto Interno Bruto (PIB)
+				y un mayor índice de pobreza. La falta de infraestructura puede limitar
+				las oportunidades económicas al dificultar la inversión empresarial, la
+				diversificación económica y la creación de empleos bien remunerados.
+				Esta limitación a las oportunidades económicas se traduce en un mayor
+				índice de pobreza. demás, la falta de infraestructura también puede
+				afectar el acceso a servicios básicos, lo que agrava la situación de
+				pobreza.
+			</p>
 			<ScatterChart
 				width={1200}
 				height={500}

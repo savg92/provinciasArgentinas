@@ -13,6 +13,19 @@ const School_dropout = ({ data }: { data: Data[] }) => {
 	return (
 		<>
 			<h1 className='font-bold'>Abandono escolar</h1>
+			<p className='m-6'>
+				En la mayoría de los casos, a medida que el índice de pobreza aumenta,
+				también lo hace la tasa de abandono escolar. Esta relación se puede
+				explicar por la presión económica que experimentan los estudiantes en
+				familias empobrecidas.
+				<br />
+				En contextos de escasos recursos económicos, los
+				estudiantes pueden sentir la necesidad imperante de contribuir al
+				ingreso familiar desde temprana edad debido a la situación económica
+				precaria en sus hogares. Esta necesidad puede llevarlos a tomar la
+				difícil decisión de abandonar la escuela para buscar empleo y así
+				contribuir a sostener a sus familias.
+			</p>
 			<LineChart
 				width={1200}
 				height={500}

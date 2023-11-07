@@ -5,6 +5,16 @@ const No_healthcare = ({ data }: { data: Data[] }) => {
 	return (
 		<>
 			<h1 className='font-bold'>Sin atención médica</h1>
+			<p className='m-6'>
+				Las personas en situaciones de pobreza tienden a enfrentar barreras
+				significativas para acceder a atención médica de calidad. Esto puede
+				deberse a la falta de recursos para pagar servicios médicos privados, la
+				ausencia de instalaciones de salud cercanas o la incapacidad de costear
+				medicamentos y tratamientos médicos necesarios. Como resultado, un
+				número considerable de personas en estas regiones puede quedar
+				desatendida en términos de atención médica preventiva y tratamiento de
+				enfermedades.
+			</p>
 			<BarChart
 				width={1200}
 				height={500}

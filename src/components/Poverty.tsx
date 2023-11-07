@@ -13,6 +13,14 @@ const Poverty = ({ data }: { data: Data[] }) => {
 	return (
 		<>
 			<h1 className='font-bold'>Pobresa</h1>
+			<p className='m-6'>
+				La interconexión entre la pobreza, la deserción escolar, la
+				infraestructura inadecuada y el bajo GDP crea un ciclo perjudicial. La
+				falta de inversión en educación conduce a una carencia de profesionales
+				y trabajadores capacitados, lo que, a su vez, restringe el crecimiento
+				económico y la diversificación de la producción en Las provincias
+				genrando altos indices de pobreza.
+			</p>
 			<AreaChart
 				width={1200}
 				height={500}
