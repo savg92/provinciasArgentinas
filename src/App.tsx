@@ -8,7 +8,7 @@ const App = () => {
 			<div className='flex'>
 				<Header />
 				<main className='flex flex-col justify-center items-center ml-12'>
-					<section className='flex flex-col justify-center items-center mt-2'>
+					<section className='flex flex-col justify-center items-center mt-2 pt-8'>
 						<Outlet />
 					</section>
 				</main>
